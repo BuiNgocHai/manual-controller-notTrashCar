@@ -1,6 +1,17 @@
-# Manual Controller for HAUI.notTrashCar
-Manual controller dành cho xe của team HAUI.notTrashCar
+# Manual Controller and Data for HAUI.notTrashCar
+Manual controller and GenData dành cho xe của team HAUI.notTrashCar
+## LƯU Ý: Khi push mn nhớ tạo branch riêng nhé
+## Điều khiển
+- Điều khiển bằng phím lên, xuống, trái, phải,lùi ( thao tác trong pygame windown)
+- Controller_ver1 chưa hoàn toàn giống hẳn với Manual của ver2.
+- Controller_ver2 is coming soon.
 
+## GenData
+- chỉnh sửa đường dẫn để lưu data trong file config trước khi run.
+- File labels sẽ được lưu ngay trong file chưa data 
+
+## Need
+- Các work cotrol cũng như gendata đã hoạt động tốt tuy nhiên phần gendata file json còn chưa có KEY_STATUS và t quên chưa sửa cho index :v 
 ## Dependency
 - Ubuntu 16.04 or newer
 - [Melodic Morenia](http://wiki.ros.org/melodic) version of [ROS](https://ros.org)
@@ -33,15 +44,7 @@ roslaunch team705 team705.launch
 
 - Chạy simulator theo hướng dẫn [này](https://drive.google.com/open?id=14vCOzUO6_-6fyv0eypql1owZz3NIRiRY), lưu ý không dùng chế độ Manual của simulator (nếu có) và hãy thay tên team thành `team705`, port là `127.0.0.1:9005`
 
-## Điều khiển
-- Điều khiển bằng phím lên, xuống, trái, phải,lùi ( thao tác trong pygame windown)
-- Controller_ver1 chưa hoàn toàn giống hẳn với Manual của ver2.
-- Controller_ver2 is coming soon.
 
-
-
-## Something
-- Các work cotrol cũng như gendata đã hoạt động tốt tuy nhiên phần gendata file json còn xấu mn sửa thêm vào VÀ TỰ TẠO BRANCH ĐỂ PUSH NHÉ. 
 
 
 
