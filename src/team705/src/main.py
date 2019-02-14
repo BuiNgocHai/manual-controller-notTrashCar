@@ -81,8 +81,10 @@ def wirte_data(img,img_index):
         'angle': angles[-1] 
         #'keyboard_status': keyboard_status + '\n'
     })  
-    with open(img_path + 'labels.json', 'a') as outfile:  
-        json.dump(image_infor, outfile)
+    
+    with open(img_path + 'labels.json','a', encoding='utf-8') as lables_file:  
+        json.dump(image_infor, lables_file, ensure_ascii=False, sort_keys=False, indent=4)
+        lables_file.write("\n")
     
 
 def main():
