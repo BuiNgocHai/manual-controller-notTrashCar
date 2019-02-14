@@ -40,14 +40,8 @@ roslaunch team705 team705.launch
 
 
 
-## Yêu cầu
-- Chỉnh sửa file [`main.py`](/src/team705/src/main.py) sao cho code này có khả năng ghi nhận các phím bấm tiến lùi trái phải trên bàn phím và gửi tín hiệu được đến simulator để điều khiển xe như nút đã bấm, khi hoạt động được tôt như chế độ Manual của simulator ver 2 là đạt.
-- Deadline: 20h30 ngày mai, 23/01/2019.
+## Something
+- Các work cotrol cũng như gendata đã hoạt động tốt tuy nhiên phần gendata file json còn xấu mn sửa thêm vào VÀ TỰ TẠO BRANCH ĐỂ PUSH NHÉ. 
 
 
-## Liên hệ
-Vui lòng liên hệ với mình nếu cần bất kì hỗ trợ gì về repo này, còn lại về task mình sẽ hạn chế involve nhé:
-- Hoàng Tùng Lâm
-- 0962724967
-- lamhoangtung.vz@gmail.com
-- https://facebook.com/lam.hoangtung.69
+
