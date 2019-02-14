@@ -1,0 +1,2 @@
+team705
+-DCATKIN_DEVEL_PREFIX=/home/vicker/Desktop/manual-controller-notTrashCar/devel -DCMAKE_INSTALL_PREFIX=/home/vicker/Desktop/manual-controller-notTrashCar/install -G Unix Makefiles
